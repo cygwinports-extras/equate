@@ -1,0 +1,13 @@
+NAME="equate"
+VERSION=0.99.0
+RELEASE=1
+CATEGORY="Math"
+SUMMARY="Enlightenment calculator"
+DESCRIPTION="Equate is an arithmetic calculator based on the Enlightenment
+Foundation Libraries."
+HOMEPAGE="http://www.enlightenment.org/"
+GIT_URI="git://git.enlightenment.org/apps/equate.git"
+GIT_REV=ef2273a
+inherit git
+
+ACLOCAL_FLAGS="-I m4"
